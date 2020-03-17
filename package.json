@@ -1,0 +1,21 @@
+{
+  "name": "screenshot-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rimraf screenshot-demo-* && electron-packager . --platform=darwin,linux --arch=x64 --icon=app",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.1",
+    "rimraf": "^3.0.2"
+  }
+}
